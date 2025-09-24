@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { StatsCounter } from "@/components/ui/stats-counter";
 import { FloatingWhatsApp } from "@/components/ui/floating-whatsapp";
 import { ServiceCard } from "@/components/ui/service-card";
-import { Carousel } from "@/components/ui/carousel";
 import { ContactForm } from "@/components/ui/contact-form";
 
 export default function Home() {

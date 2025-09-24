@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Dream Axis - India & Abroad Work Consultants",
-  description: "Your trusted partner in career advancement. We help professionals find the right path for their global careers with personalized guidance and comprehensive support.",
+  title: "Dream Axis - India & Abroad Education Consultants",
+  description: "Your trusted partner in educational and career advancement. We help students and professionals find the right path for their global careers.",
 };
 
 export default function RootLayout({
