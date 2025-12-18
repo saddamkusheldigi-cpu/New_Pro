@@ -4,7 +4,7 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://yourdomain.com'; // TODO: Replace with your actual domain
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://dreamaxis.co.in';
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
