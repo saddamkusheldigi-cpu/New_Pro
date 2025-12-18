@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Sitemap will be automatically generated at /sitemap.xml by Next.js
+# Note: In Next.js App Router, robots.ts in src/app/ takes precedence over this file
+
