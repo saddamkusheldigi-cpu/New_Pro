@@ -52,7 +52,7 @@ export function FloatingWhatsApp({ phoneNumbers, className = '' }: FloatingWhats
         {/* Phone Number Menu */}
         {showMenu && phoneNumbers.length > 1 && (
           <div className="absolute bottom-full right-0 mb-2 bg-white rounded-lg shadow-lg border border-gray-200 py-2 min-w-[180px] z-50">
-            {phoneNumbers.map((phoneNumber, index) => (
+            {phoneNumbers.map((phoneNumber) => (
               <button
                 key={phoneNumber}
                 onClick={() => handleWhatsAppClick(phoneNumber)}
