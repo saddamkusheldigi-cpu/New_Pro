@@ -342,7 +342,7 @@ export default function Home() {
                       <div>
                         <p className="font-semibold text-gray-900 text-sm sm:text-base">WhatsApp</p>
                         <p className="text-gray-600 text-sm sm:text-base">+91 8590060508</p>
-                        <p className="text-gray-600 text-sm sm:text-base">+91 9188231816</p>
+                        <p className="text-gray-600 text-sm sm:text-base">+91 8075480732</p>
                       </div>
                     </div>
                     <div className="flex items-center space-x-3 sm:space-x-4">
@@ -448,7 +448,7 @@ export default function Home() {
       </footer>
 
       {/* Floating WhatsApp Button */}
-      <FloatingWhatsApp phoneNumbers={["918590060508"]} />
+      <FloatingWhatsApp phoneNumbers={["918075480732"]} />
     </div>
   );
 }
