@@ -81,7 +81,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.className} scroll-smooth`}>{children}</body>
+      <head>
+        <meta name="facebook-domain-verification" content="738070f15fxl5ch0v206jueta0560z" />
+      </head>
+      <body className={`${inter.className} scroll-smooth`}>
+        {children}
+      </body>
     </html>
   );
 }
